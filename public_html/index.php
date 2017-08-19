@@ -28,6 +28,8 @@
 				    $.ajax({
 				           type: "POST",
 				           url: url,
+				           username: vishal,
+				           password: pandey,
 				           data: $(this).serialize(), 
 				           success: function(data)
 				           {
